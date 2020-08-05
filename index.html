@@ -4,17 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PowerUp</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-    <div id="header"><h1>Power Up <span id="userName"></span></h1></div>
-    <div id="content">
-        <ul>
-            <li><h3>체력</h3>lv.<span class="level"></span><span class="bar"></span></li>
-            <li><h3>근력</h3>lv.<span class="level"></span><span class="bar"></span></li>
-            <li><h3>성품</h3>lv.<span class="level"></span><span class="bar"></span></li>
-            <li><h3>화술</h3>lv.<span class="level"></span><span class="bar"></span></li>
-            <li><h3>마법</h3>lv.<span class="level"></span><span class="bar"></span></li>
-        </ul>
+    <div id="wrapper">
+        <div id="header"><h1>POWER UP<span id="userName"></span></h1></div>
+        <div id="content">
+        <div id="skills">
+            <h2>스킬</h2>
+            <ul>
+                <li><h3>체력</h3><span class="level">lv.0</span><progress value="10" max="100"></progress></li>
+                <li><h3>근력</h3><span class="level">lv.0</span><progress value="10" max="100"></progress></li>
+                <li><h3>성품</h3><span class="level">lv.0</span><progress value="10" max="100"></progress></li>
+                <li><h3>화술</h3><span class="level">lv.0</span><progress value="10" max="100"></progress></li>
+                <li><h3>마법</h3><span class="level">lv.0</span><progress value="10" max="100"></progress></li>
+                <li><h3>매력</h3><span class="level">lv.0</span><progress value="10" max="100"></progress></li>
+            </ul>
+        </div>
+        <div id="missions">
+            <h2>Mission <span id="today">0806</span></h2>
+            <ul>
+                <li><input type="checkbox">미션 1</li>
+                <li><input type="checkbox">미션 2</li>
+                <li><input type="checkbox">미션 3</li>
+                <li><input type="checkbox">미션 4</li>
+                <li><input type="checkbox">미션 5</li>
+                <li><input type="checkbox">미션 6</li>
+                <li><input type="checkbox">미션 7</li>
+            </ul>
+        </div>
+        <div id="titles">
+            <h2>Titles</h2>
+            <ul>
+            </ul>
+        </div>
+    </div>
     </div>
 </body>
 </html>
