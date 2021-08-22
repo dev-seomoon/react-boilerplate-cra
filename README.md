@@ -7,10 +7,10 @@ CRA에서 기본적으로 주어지는 컴포넌트와 스타일을 제거해 �
 주석과 로고, favicon 등의 파일도 모두 삭제했습니다.  
 
 eslint, prettier는 기본 권장값으로 설정이 되어 있습니다. 
-사용하는 에디터에서 eslint, prettier를 적용한 적이 없는 경우 추가 설정이 필요합니다. 
-VSCode의 경우 마켓플레이스에서 prettier, eslint 플러그인을 설치하고
+사용하는 에디터에서 eslint, prettier를 적용한 적이 없는 경우 추가 설정이 필요합니다.  
+VSCode의 경우 마켓플레이스에서 prettier, eslint 플러그인을 설치하고  
 settings.json을 다음과 같이 설정하면 됩니다.  
-setting 메뉴에서 다음 항목들을 찾아서 직접 설정해줘도 됩니다. 
+setting 메뉴에서 다음 항목들을 찾아서 직접 설정해줘도 됩니다.  
 
 ```json
 "editor.formatOnSave": true,
