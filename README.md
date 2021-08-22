@@ -23,5 +23,5 @@ setting 메뉴에서 다음 항목들을 찾아서 직접 설정해줘도 됩니
 "files.autoSave": "onFocusChange"
 ```
 
-당연히 node_modules은 올라가 있지 않으므로,  
+당연히 node_modules은 포함되어 있지 않으므로,  
 클론 후 `yarn` 명령어 실행이 필요합니다.  
